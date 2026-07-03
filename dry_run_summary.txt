@@ -1,0 +1,13 @@
+config = /mnt/data/mura24m_cs137_local_response_package/configs/config_MURA24m_E662_w050_080_customR_beta75.json
+template_input = /mnt/data/mura24m_cs137_local_response_package/templates/MURA24m_f8_E662_w050_080.i
+work_dir = /mnt/data/mura24m_cs137_local_response_package/jobs/jobs_MURA24m_E662_w050_080_customR_beta75
+library_output = /mnt/data/mura24m_cs137_local_response_package/outputs/H_E662_w050_080_MURA24m_customR_beta75.npz
+source_energy_mev = 0.662
+energy_windows_mev = [[0.5, 0.8]]
+r_grid_cm = [30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 100.0, 125.0, 150.0, 175.0, 200.0, 225.0, 250.0, 275.0, 300.0, 350.0, 400.0, 450.0, 500.0, 600.0, 700.0]
+alpha_grid_deg = (-45.0, 45.0, 37)
+beta_grid_deg = (-45.0, 75.0, 49)
+estimated jobs = 39886
+example index=0: r=30.0, alpha=-45.0, beta=-45.0, POS=-17.3205 -17.3205 -17.3205
+example index=19943: r=200.0, alpha=-45.0, beta=-45.0, POS=-115.47 -115.47 -115.47
+example index=39885: r=700.0, alpha=45.0, beta=75.0, POS=175.394 654.579 -175.394
